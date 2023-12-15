@@ -53,7 +53,7 @@ img {
 ------------------------------- */
 .page-header {
     font-family: 'Philosopher', serif;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.753);
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
