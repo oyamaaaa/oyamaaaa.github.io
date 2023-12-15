@@ -6,6 +6,7 @@ $(function() {
         autoplaySpeed : 2000,
         pauseOnFocus: false,
         pauseOnHover: false,
+        pauseOnDotsHover: false,
         arrows: false,
     })
 });
