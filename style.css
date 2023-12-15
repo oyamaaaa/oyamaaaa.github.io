@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 .wrapper {
-    max-width: 1700px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 4%;
 }
@@ -52,18 +52,22 @@ img {
 /* HEADER
 ------------------------------- */
 .page-header {
+    font-family: 'Philosopher', serif;
+    background-color: bisque;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
+
 }
 .logo {
-    width: 210px;
+    width: 36px;
     margin-top: 14px;
 }
 .main-nav {
     display: flex;
     font-size: 1.25rem;
-    text-transform: uppercase;
-    margin-top: 34px;
+    margin-top: 18px;
     list-style: none;
 }
 .main-nav li {
@@ -71,6 +75,7 @@ img {
 }
 .main-nav a {
     color: #432;
+    transition: all 0.4s;
 }
 .main-nav a:hover {
     color: #0bd;
@@ -83,6 +88,7 @@ img {
     min-height: 100vh;
 }
 #home .page-title {
+    font-family: 'Silkscreen', sans-serif;
     text-transform: none;
 }
 .home-content {
@@ -120,3 +126,10 @@ img {
     z-index: 9999;
     width: 100vw;
     }
+
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+@keyframes text_anime_on {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
