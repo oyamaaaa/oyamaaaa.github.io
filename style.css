@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 .wrapper {
-    max-width: 1100px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 0 4%;
 }
@@ -80,8 +80,6 @@ img {
 ------------------------------- */
 #home {
     background-image: url(../images/main-bg.jpg);
-    background-color: #0bd;
-    background-blend-mode: hard-light;
     min-height: 100vh;
 }
 #home .page-title {
@@ -97,19 +95,28 @@ img {
 }
 
 .slick__bg {
-    padding-bottom: 16.5%;
+    padding-bottom: 100vh;
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 .slick__bg01 {
-    background-image: url(https://jito-site.com/wp-content/uploads/2023/01/1.png);
+    background-image: url(hamu.jpg);
 }
 .slick__bg02 {
-    background-image: url(https://jito-site.com/wp-content/uploads/2023/01/2.png);
+    background-image: url(chiran.jpg);
 }
 .slick__bg03 {
-    background-image: url(https://jito-site.com/wp-content/uploads/2023/01/3.png);
+    background-image: url(casino.jpg);
 }
 .slick__bg04 {
-    background-image: url(https://jito-site.com/wp-content/uploads/2023/01/4.png);
+    background-image: url(#);
 }
+
+#sticky-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    }
